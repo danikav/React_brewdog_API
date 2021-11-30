@@ -50,7 +50,7 @@ const BeerContainer = () => {
     
     return(
         <>
-        <div class="bg-gradient-to-r from-blue-200 via-blue-300 to-blue-400 ... h-screen">
+        <div class="bg-blue-background ... h-screen bg-cover">
         <h1 class="text-6xl ">Brewdog's Famous Beers</h1>
         <p class="ml-6 mt-6">
             {text}

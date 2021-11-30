@@ -6,7 +6,10 @@ module.exports = {
       fontFamily: {
       sans: ['Quicksand', 'sans-serif'],
   },
-},
+      backgroundImage : {
+       'blue-background' : "url('/src/blue-background.png')",
+  },
+  },
   },
   variants: {
     extend: {},
