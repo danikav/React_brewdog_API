@@ -20,7 +20,7 @@ const BeerDetails = ({beer, loaded}) => {
         <h4 class="mb-6">
             {beer[0].tagline}
         </h4>
-        <Popup trigger={<img class="w-40 h-80 animate-pulse cursor-pointer" src={beer[0].image_url} />} position="right center">
+        <Popup trigger={<img class="w-30 h-80 animate-pulse cursor-pointer" src={beer[0].image_url} />} position="right center">
         <div>{beer[0].description}</div>
         </Popup>
         </div>
